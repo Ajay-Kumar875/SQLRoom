@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img0"
+    tools:context=".SQLLiteExample">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School DataBase"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="56dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textSize="22sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_margin="20sp"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/edittext_custom"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterAge"
+        android:layout_margin="20sp"
+        android:textSize="22sp"
+        android:hint="Enter RollNo"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="MissingConstraints"
+        android:textAlignment="center"
+        android:background="@drawable/edittext_custom"/>
+
+    <Button
+        android:id="@+id/addName"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/printName"
+        android:layout_gravity="center"
+        android:text="Print Name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete records"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"
+        android:id="@+id/delete"/>
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Update RECORDS"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:id="@+id/update"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Name"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_margin="20sp"
+            android:textSize="22sp"
+            android:padding="10dp"
+            android:textColor="#BD0B1A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Age"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_margin="20sp"
+            android:textSize="22sp"
+            android:padding="10dp"
+            android:textColor="#BD0B1A"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "834544181692",
+    "project_id": "sqlroom-6c096",
+    "storage_bucket": "sqlroom-6c096.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834544181692:android:98f9c93b726dbd885d0bb9",
+        "android_client_info": {
+          "package_name": "com.example.sqlroom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGFjkJGlSWBywTqvY5jWUWJK8uvTumwqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
